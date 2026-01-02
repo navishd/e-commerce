@@ -8,7 +8,7 @@ const Navbar = () => {
 
      <img src={assets.logo} className='w-36' alt=""/>
 
-     <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
+     <ul className='hidden sm:flex gap-5 text-sm text-gray-700 flex-1 justify-end'>
 
       <NavLink to='/' className={'flex flex-col items-center gap-1'}>
         <p>HOME</p>
