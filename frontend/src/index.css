@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+
+/* active nav underline */
+a.active hr {
+  display: block;
+}
